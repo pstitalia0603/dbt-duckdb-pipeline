@@ -82,7 +82,7 @@ SELECT * FROM monthly_summary;
 ```
 
 > The short link is just a convenience — the database itself lives at the release asset URL, which works in `ATTACH` directly (use this form in your own README):
-> `https://github.com/lukebarousse/dbt_Analytics_Engineering_Course/releases/download/warehouse/prod.duckdb`
+> `https://github.com/pstitalia0603/dbt-duckdb-pipeline/releases/download/warehouse/prod.duckdb`
 
 ---
 
