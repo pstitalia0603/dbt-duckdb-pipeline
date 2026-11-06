@@ -3,10 +3,10 @@ on:
   push:
     branches: [main]
   schedule:
-    - cron: "17 6 * * 1" # Mondays — the pipeline runs while you sleep
-  workflow_dispatch: # …and a manual Run button
+    - cron: '17 6 * * 1'    # Mondays — the pipeline runs while you sleep
+  workflow_dispatch:        # …and a manual Run button
 permissions:
-  contents: write # lets the workflow update the release
+  contents: write           # lets the workflow update the release
 jobs:
   build:
     runs-on: ubuntu-latest
