@@ -15,5 +15,5 @@ data/
 *.duckdb
 logs/
 
-# dbt generated files
+# dbt generated files do not include
 .user.yml
