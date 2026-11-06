@@ -73,7 +73,7 @@ No clone required. [Install DuckDB](https://duckdb.org/docs/installation/) (`bre
 INSTALL httpfs;
 LOAD httpfs;
 
-ATTACH 'https://lukeb.co/dbt-warehouse' AS jobs;
+ATTACH 'https://github.com/pstitalia0603/dbt-duckdb-pipeline/releases/download/warehouse/prod.duckdb' AS jobs;
 USE jobs;
 SHOW TABLES;
 
@@ -81,16 +81,11 @@ SELECT * FROM top_locations;
 SELECT * FROM monthly_summary;
 ```
 
-> The short link is just a convenience — the database itself lives at the release asset URL, which works in `ATTACH` directly (use this form in your own README):
-> `https://github.com/pstitalia0603/dbt-duckdb-pipeline/releases/download/warehouse/prod.duckdb`
-
----
-
 ## 📖 Docs
 
 Docs are generated with `dbt docs generate` and published to GitHub Pages:
 
-**→ [lukebarousse.github.io/dbt_Analytics_Engineering_Course/project1/](https://lukebarousse.github.io/dbt_Analytics_Engineering_Course/project1/)**
+**→ [https://github.com/pstitalia0603/dbt-duckdb-pipeline](https://https://github.com/pstitalia0603/dbt-duckdb-pipeline)**
 
 The site shows:
 
