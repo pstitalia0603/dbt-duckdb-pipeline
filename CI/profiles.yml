@@ -1,0 +1,15 @@
+analytics:
+  target: prod
+  outputs:
+    prod:
+      type: duckdb
+      path: ../data/prod.duckdb
+      threads: 4
+
+job_explorer:
+  target: prod
+  outputs:
+    prod:
+      type: duckdb
+      path: ../data/prod.duckdb
+      threads: 4
